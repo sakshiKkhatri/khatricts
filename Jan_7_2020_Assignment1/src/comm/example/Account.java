@@ -2,29 +2,18 @@ package comm.example;
 
 public class Account 
 {
-  private Integer accountId;
-  private String accountName;
+  private Integer account_id;
+  private String account_name;
   private String address;
-  public Account(Integer accountId, String accountName, String address) {
+  public Account(Integer account_id, String account_name, String address) {
 	super();
-	this.accountId = accountId;
-	this.accountName = accountName;
+	this.account_id = account_id;
+	this.account_name = account_name;
 	this.address = address;
 }
-   public String toString()
-   {
-	   return "Acc[accountId=" + accountId +", accountName ="+ accountName +", address="+ address +"]";
-	   
-   }
-
-public void display()
+public boolean equals(Object obj)
 {
-	String temp=accountName;
-		
 	
-	
-	
-}
 
 }
- 
+}

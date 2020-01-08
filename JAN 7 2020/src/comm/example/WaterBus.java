@@ -1,10 +1,25 @@
 package comm.example;
+public class  extends Transport
+{
+	
+double calculateDistancedouble, double  initialdiatannce , double finalDistance)
+{
+	
+setDistance ( );
+return getDistance();
 
-public class WaterBus {
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+double calculateEfficiency(double  initialfuel,double finalfuel) 
+{
+	
+return getEfficiency();
+}
+public
+ String toString()
+ {
+	
+	return "watrbus"+super.tostring();
+ }
 
 }
