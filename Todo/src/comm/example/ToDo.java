@@ -19,7 +19,9 @@ import lombok.ToString;
   { 
       
 	  private String toDoId;
-	  private String toDoName;
-  
+	  private String toDoname;
+	  private String taskId;
+      private String TaskName;
+      private String author;
   
   }
