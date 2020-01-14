@@ -12,7 +12,8 @@ public class Tester {
 		List<Employee> list=tester.service.getAllEmployees();
 		System.out.println("ID  FIRST_NAME  LAST_NAME  SALARY");
 		list.forEach(e->{
-			System.out.println(e.getEmployeeId()+"  "+e.getFirstName()+"  "+e.getLastName()+"  "+e.getSalary());
+			System.out.format( "%-20d %-15s%-10s %.2f    \n",  e.getEmployeeId(),e.getFirstName(),e.getLastName(),e.getSalary());
+			
 		});
 
 	}
