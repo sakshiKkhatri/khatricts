@@ -1,5 +1,4 @@
 package com.mycompany.jdbcmaven.name;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,7 +6,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
-
 public class MyConnectionFactory {
 	private Connection connection;
 	private static MyConnectionFactory factory;
@@ -34,4 +32,4 @@ public class MyConnectionFactory {
 		connection=DriverManager.getConnection(prop.getProperty("connection.url"),prop.getProperty("connection.user"),prop.getProperty("connection.password"));
 		return connection;
 	}
-}	
+}
