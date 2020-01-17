@@ -11,6 +11,13 @@
   <name>spring_demo_3</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.10</version>
+    <scope>provided</scope>
+</dependency>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
