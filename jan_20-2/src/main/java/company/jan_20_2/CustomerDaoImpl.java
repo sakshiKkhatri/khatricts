@@ -51,15 +51,16 @@ public class CustomerDaoImpl implements CustomerDao {
 
 	@Override
 	public int deleteCustomer(String uId) throws SQLException {
-		String query= "delete customer from uId=?";
+		String query= "delete customer from uId=?;";
 		int i =jdbcTemplate.update(query,uId);
 			return i;
 	}
 
 	@Override
-	public List updateCustomerById(Customer customer) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+	public int updateCustomerById(Customer customer) throws SQLException {
+		String sql="Delete from customer where CUST_ID = ?;";
+				int i = jdbcTemplate.update(sql,id);
+		return i;
 	}
 
 }
