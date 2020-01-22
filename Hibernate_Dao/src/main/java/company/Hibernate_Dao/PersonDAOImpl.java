@@ -70,7 +70,7 @@ public class PersonDAOImpl implements PersonDAO {
 	}
 
 	@Override
-	public void deletePerson(Integer id) {
+	public Person deletePerson(Integer id) {
 		Person p=session.get(Person.class, id);
 		if(p!=null)
 		{
@@ -83,6 +83,7 @@ public class PersonDAOImpl implements PersonDAO {
 		{
 			System.out.println("not found");
 		}
+		return deletePerson(null);
 
 	}
 

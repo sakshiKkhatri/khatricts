@@ -10,6 +10,6 @@ public interface PersonDAO {
 	public List<Person> getAllPersons();
 	public Person getPersonByid(Integer id);
 	public Person updatePerson(Integer id) throws IOException;
-	public void deletePerson(Integer id);
+	public Person deletePerson(Integer id);
 
 }
