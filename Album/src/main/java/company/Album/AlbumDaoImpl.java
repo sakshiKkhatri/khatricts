@@ -53,6 +53,12 @@ public class AlbumDaoImpl implements AlbumDao {
 		return null;
 	}
 
+	@Override
+	public Album updateAlbum(Album album) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
 
 

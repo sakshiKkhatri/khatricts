@@ -5,6 +5,5 @@ import company.Album.entity.Album;
 public interface AlbumDao {
 	public Album createAlbum(Album album);
 	public Album deleteAlbum(Album album); 
-	
-
-}
+	public Album updateAlbum(Album album);
+	}

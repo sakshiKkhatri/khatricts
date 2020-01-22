@@ -1,5 +1,5 @@
-package company.Album.entity;
 
+package company.Album.entity;
 import java.time.LocalDate;
 
 import javax.persistence.CascadeType;
