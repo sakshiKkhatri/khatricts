@@ -1,7 +1,12 @@
 package comm.mycompany.spring_demo4;
 
+import java.util.UUID;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
+import comm.hibernate.spring_hibernate_demo.Entity.UserDetail;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -24,3 +29,7 @@ public class Address {
 	
 
 }
+
+
+
+
