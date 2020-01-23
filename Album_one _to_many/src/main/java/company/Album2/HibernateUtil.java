@@ -1,4 +1,5 @@
-package company.Hibernate_Dao;
+package company.Album2;
+
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -6,6 +7,9 @@ import java.util.logging.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import company.Album2.Entity.Album;
+import company.Album2.Entity.MyImage;
 
 
 
@@ -17,7 +21,8 @@ static {
 	Logger logger = Logger.getLogger("org.hibernate");
 	logger.setLevel(Level.OFF);
 	factory=new Configuration().configure().
-			addAnnotatedClass(Person.class).
+			addAnnotatedClass(Album.class).
+			addAnnotatedClass(MyImage.class).
 			buildSessionFactory();
 }
 	private HibernateUtil() {
