@@ -1,5 +1,5 @@
-<%@page import="cmr.mapper.Customermapper"%>
-<%@page import="cmr.mapper.CustomerDTOImpl"%>
+<%@page import="mapper.Customermapper"%>
+<%@page import="mapper.CustomerDTOImpl"%>
 <%@page import="cmr.model.CustomerDto"%>
 <%@page import="cmr.model.Customer"%>
 <%@page import="java.util.List"%>
