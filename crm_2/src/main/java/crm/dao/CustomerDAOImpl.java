@@ -65,4 +65,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 		entityManager.getTransaction().commit();
 	}
 
+	@Override
+	public void search(Customer customer) {
+		// TODO Auto-generated method stub
+		entityManager.getTransaction().begin();
+		entityManager.merge(customer);
+		entityManager.getTransaction().commit();
+		
+	
+	}
+
 }

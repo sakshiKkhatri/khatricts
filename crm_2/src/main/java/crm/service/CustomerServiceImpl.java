@@ -42,4 +42,10 @@ public class CustomerServiceImpl implements CustomerService {
 		dao.delete(customer);
 	}
 
+	@Override
+	public void search(Customer customer) {
+		// TODO Auto-generated method stub
+		dao.search(customer);
+	}
+
 }
